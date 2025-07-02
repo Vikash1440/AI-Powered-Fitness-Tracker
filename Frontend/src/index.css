@@ -1,0 +1,17 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Oswald:wght@200..700&family=Truculenta:opsz,wght@12..72,100..900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .parimary-btn{
+        @apply bg-primary text-white font-semibold 
+        py-3 px-6 rounded-md hover:!scale-110 duration-300;
+    }
+}
+@layer utilities{
+    .drop-shadow{
+        filter:drop-shadow(-6px 8px 15px rgba(0,0,0,0.2))
+    }
+}
