@@ -22,7 +22,7 @@ MIDDLEWARE = [
 ]
 
 CORS_ALLOWED_ORIGINS = [
-    'http://localhost:5173',
+    'https://ai-powered-fitness-tracker-14a.onrender.com',
 ]
 
 STORAGES={
